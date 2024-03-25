@@ -19,15 +19,15 @@ Ce projet est un exemple simple d'un système d'authentification basé sur les j
 
 2. **Installation des dépendances :**
 
-```bash
-npm install
-```
+    ```bash
+    npm install
+    ```
 
 3. **Démarrage du serveur :**
 
-```bash
-node index.js
-```
+    ```bash
+    node index.js
+    ```
 
 Le serveur sera alors accessible à l'adresse http://localhost:3000.
 
@@ -37,10 +37,13 @@ Le serveur sera alors accessible à l'adresse http://localhost:3000.
 
 Envoyer une requête POST à http://localhost:3000/login avec le corps suivant :
 
-{
-"username": "john",
-"password": "password"
-}
+```bash
+    {
+    "username": "john",
+    "password": "password"
+    }
+```
+
 Utilisation du jeton JWT :
 
 Ajouter le jeton JWT reçu comme en-tête Authorization pour accéder aux routes protégées. Par exemple, pour accéder à la route /protected, envoyez une requête GET à http://localhost:3000/protected avec l'en-tête suivant :
