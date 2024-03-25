@@ -19,11 +19,16 @@ Ce projet est un exemple simple d'un système d'authentification basé sur les j
 
 2. **Installation des dépendances :**
 
+```bash
 npm install
+```
 
 3. **Démarrage du serveur :**
 
+```bash
 node index.js
+```
+
 Le serveur sera alors accessible à l'adresse http://localhost:3000.
 
 ## Utilisation
